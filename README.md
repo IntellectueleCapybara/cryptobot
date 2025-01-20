@@ -10,8 +10,8 @@ This project is a trading bot that interacts with the KuCoin exchange to perform
 ## Project Structure
 
 - `main.py`: The main entry point for running the bot. It includes the trading logic, fetching OHLCV data, calculating SMA, and placing margin trades.
-- `check_apiconnection.py`: Tests the API connection to KuCoin by creating a client using the KuCoin API keys and fetching account information.
-- `place_isolated_margin_order.py`: Contains the logic for placing isolated margin orders via the KuCoin API.
+- `kucoin_utils.py`: Contains utility functions for configuring the KuCoin exchange and testing the API connection.
+- `place_order.py`: Contains the logic for placing isolated margin orders via the KuCoin API.
 
 ## Prerequisites
 

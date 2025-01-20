@@ -2,7 +2,6 @@
 
 This project is a trading bot that interacts with the KuCoin exchange to perform automated trading based on a Simple Moving Average (SMA) strategy. The bot includes functionalities to:
 
-1. Configure the KuCoin exchange using the CCXT library.
 2. Test the API connection to KuCoin.
 3. Fetch OHLCV data and calculate SMA.
 4. Place isolated margin orders based on the trading strategy.
